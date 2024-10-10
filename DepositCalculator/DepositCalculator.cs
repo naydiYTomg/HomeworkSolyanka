@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DepositCalculator
 {
-    public class Interface
+    public class DepositCalculator
     {
         public static string Get()
         {

@@ -1,6 +1,6 @@
-﻿namespace EvenDigitsFinder
+﻿namespace EvenDigitsFounder
 {
-    public class Interface
+    public class EvenDigitsFounder
     {
         public static string Get()
         {

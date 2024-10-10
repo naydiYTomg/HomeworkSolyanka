@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CourierService
 {
-    public class Interface
+    public class CourierService
     {
         public static uint Get()
         {

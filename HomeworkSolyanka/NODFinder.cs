@@ -1,6 +1,6 @@
 ﻿namespace NODFinder
 {
-    public class Interface
+    public class NODFinder
     {
         public static string Get()
         {

@@ -2,7 +2,7 @@
 
 namespace AwardCalculator
 {
-    public class Interface
+    public class AwardCalculator
     {
         public static string Get()
         {

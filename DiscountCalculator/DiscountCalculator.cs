@@ -1,8 +1,8 @@
 ﻿namespace DiscountCalculator
 {
-    public class Interface
+    public class DiscountCalculator
     {
-        public static string Get(string[] args)
+        public static string Get()
         {
             bool withDiscount = false;
             bool[] errors = new bool[3];

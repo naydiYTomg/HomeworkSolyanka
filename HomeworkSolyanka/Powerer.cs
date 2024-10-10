@@ -1,6 +1,6 @@
 ﻿namespace Powerer
 {
-    public class Interface
+    public class Powerer
     {
 
         public static double Get()

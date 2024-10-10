@@ -1,6 +1,6 @@
 ﻿namespace LightweightDelivery
 {
-    public class Interface
+    public class LightweightDelivery
     {
         public static string Get()
         {

@@ -1,6 +1,6 @@
 ﻿namespace ProductPriceCalculator
 {
-    public class Interface
+    public class ProductPriceCalculator
     {
         
         struct Receipt

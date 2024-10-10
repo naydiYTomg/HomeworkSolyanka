@@ -1,6 +1,6 @@
 ﻿namespace TableReservation
 {
-    public class Interface
+    public class TableReservation
     {
         public static string Get()
         {

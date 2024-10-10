@@ -1,5 +1,5 @@
 ﻿
-namespace CourierService
+namespace HomeworkSolyanka
 {
     static class Program
     {
@@ -14,7 +14,17 @@ namespace CourierService
             switch (command)
             {
                 
-                case 1: Console.WriteLine(Interface.Get());
+                case 1: Console.WriteLine(CourierService.CourierService.Get()); break;
+                case 2: Console.WriteLine(AwardCalculator.AwardCalculator.Get()); break;
+                case 3: Console.WriteLine(DepositCalculator.DepositCalculator.Get()); break;
+                case 4: Console.WriteLine(ProductPriceCalculator.ProductPriceCalculator.Get()); break;
+                case 5: Console.WriteLine(TableReservation.TableReservation.Get()); break;
+                case 6: Console.WriteLine(DiscountCalculator.DiscountCalculator.Get()); break;
+                case 7: Console.WriteLine(LightweightDelivery.LightweightDelivery.Get()); break;
+                case 8: Console.WriteLine(Powerer.Powerer.Get()); break;
+                case 9: Console.WriteLine(NODFinder.NODFinder.Get()); break;
+                case 10: Console.WriteLine(EvenDigitsFounder.EvenDigitsFounder.Get()); break;
+                case 11: Console.WriteLine(NumbersInverter.NumbersInverter.Get()); break;
             }
         }
     }

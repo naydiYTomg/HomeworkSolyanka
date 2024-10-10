@@ -2,7 +2,7 @@
 
 namespace NumbersInverter
 {
-    public class Interface
+    public class NumbersInverter
     {
         public static string Get()
         {
