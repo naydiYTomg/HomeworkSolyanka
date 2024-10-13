@@ -1,4 +1,6 @@
-﻿namespace ProductPriceCalculator
+﻿using System.Xml.Linq;
+
+namespace ProductPriceCalculator
 {
     public class ProductPriceCalculator
     {
@@ -62,6 +64,19 @@
             Receipt receipt = new Receipt(name, price, count, inStock, discount);
 
             //Console.WriteLine(receipt);
+            return receipt.Calc();
+        }
+        public static double GetTest(double price, uint count, bool inStock)
+        {
+            uint discount = 0;
+
+            discount = count >= 5 ? discount + 10 : discount;
+
+            discount = inStock ? discount + 15 : discount;
+
+
+            Receipt receipt = new Receipt("none", price, count, inStock, discount);
+
             return receipt.Calc();
         }
     }

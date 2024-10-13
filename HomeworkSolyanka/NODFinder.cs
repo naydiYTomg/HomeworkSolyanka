@@ -58,5 +58,21 @@
             }
             return finalResult;
         }
+        public static int GetTest(int firstNum, int secondNum)
+        {
+            int numA = firstNum;
+            int numB = secondNum;
+
+            int finalResult;
+
+            while (true)
+            {
+                int ostatok = numA > numB ? numA % numB : numB % numA;
+                if (ostatok == 0) { finalResult = numA > numB ? numB : numA; break; }
+                numA = numB;
+                numB = ostatok;
+            }
+            return finalResult;
+        }
     }
 }

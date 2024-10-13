@@ -38,5 +38,12 @@
         {
             throw new NotImplementedException("<TODO>::Renting function");
         }
+        public static int GetTest(uint count)
+        {
+            if (count <= 2) return 1;
+            else if (count <= 4) return 2;
+            else if (count <= 8) return 3;
+            else return 0;
+        }
     }
 }

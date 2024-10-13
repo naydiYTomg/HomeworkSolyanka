@@ -36,5 +36,15 @@
             if (!Enumerable.Range(3, 10).Contains((int) distance)) { return ("Расстояние не находится в диапазоне от 3 до 10км!"); }
             return ("Успешно! Ваша посылка малогабаритна!");
         }
+        public static bool GetTest(uint length,  uint width, uint height, uint mass, uint distance)
+        {
+            if (length > 100 || width > 100 || height > 100) return false;
+            uint sumOfValues = length + height + width;
+            if (sumOfValues > 150) return false;
+            if (mass > 10) return false;
+            if (!Enumerable.Range(3, 10).Contains((int)distance)) return false;
+            return true;
+        }
+
     }
 }

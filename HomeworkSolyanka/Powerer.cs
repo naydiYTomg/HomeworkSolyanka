@@ -11,5 +11,6 @@
             return Math.Pow(number, power);
             
         }
+        public static double GetTest(uint number, uint power) { return Math.Pow(number, power); }
     }
 }
