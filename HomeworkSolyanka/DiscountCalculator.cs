@@ -29,5 +29,12 @@
 
             return withDiscount ? "Поздравляем, Вам доступна скидка!" : "Вам не доступна скидка";
         }
+
+        public static bool GetTest(uint age, uint count, uint spended)
+        {
+            if (age > 60) return true;
+            if (count >= 4) if (spended >= 5000) return true; else return false;
+            return false;
+        }
     }
 }

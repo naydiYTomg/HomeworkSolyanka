@@ -19,5 +19,10 @@ namespace AwardCalculator
             if (monthSolds < soldPlan) { return "Премия не начисляется, продажи меньше плана"; }
             else { double premiya = ((monthSolds - soldPlan) / 100) * 10; return $"Ваша премия - {premiya}{znak}"; }
         }
+        public static double GetTest(int soldPlan, int monthSolds)
+        {
+            if (monthSolds < soldPlan) return 0;
+            return ((monthSolds - soldPlan) / 100d) * 10d;
+        }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkSolyanka", "HomeworkSolyanka\HomeworkSolyanka.csproj", "{27F0C881-4EFD-4A04-8F22-EA21C25A5823}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkSolyanka.Test", "HomeworkSolyanka.Test\HomeworkSolyanka.Test.csproj", "{9A29B976-B13B-4871-A787-BAB3A63BC5CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{27F0C881-4EFD-4A04-8F22-EA21C25A5823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F0C881-4EFD-4A04-8F22-EA21C25A5823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27F0C881-4EFD-4A04-8F22-EA21C25A5823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A29B976-B13B-4871-A787-BAB3A63BC5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A29B976-B13B-4871-A787-BAB3A63BC5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A29B976-B13B-4871-A787-BAB3A63BC5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A29B976-B13B-4871-A787-BAB3A63BC5CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

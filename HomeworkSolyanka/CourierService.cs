@@ -23,7 +23,13 @@ namespace CourierService
             }
             return delivery.CalculatePrice(length);
         }
+        public static uint GetTest(uint length, uint fixedPrice, uint priceForKM)
+        {
+            ExerciseDelivery delivery = new(fixedPrice, priceForKM); 
+            return delivery.CalculatePrice(length);
 
+            
+        }
         //Console.WriteLine()
     }
 }

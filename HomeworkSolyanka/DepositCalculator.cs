@@ -18,5 +18,10 @@ namespace DepositCalculator
             uint pribil = ((vklad / 100) * 10) + (((vklad / 10) * 10) / 2);
             return $"Ваша прибыль со вклада: {pribil}";
         }
+        public static uint GetTest(uint vklad)
+        {
+            uint pribil = ((vklad / 100) * 10) + (((vklad / 10) * 10) / 2);
+            return pribil;
+        }
     }
 }
